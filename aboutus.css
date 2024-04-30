@@ -1,0 +1,290 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #BA181B; */
+}
+
+.rev{
+  width: 100%;
+  height: 600px;
+  color: black;
+  /* background-color:#BA181B; */
+  background-color: rgb(129, 17, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rev h1{
+  font-size: 8rem;
+  font-family:'Cinzel', serif;
+}
+.rev h3,h4{
+  font-family:'Cinzel', serif;
+}
+.navul{
+  display: flex;
+  /* margin: 10px; */
+  position: relative;
+  bottom: 190px;
+  width: 100%;
+justify-content: center;
+}
+.mainnavbar{
+    justify-content: center;
+  
+    display: flex;
+    width: 100%;
+}
+.navitem{
+    margin: 10px 30px;
+    list-style: none;
+}
+.navitem a{
+    text-decoration:none;
+    font-size:1.5rem;
+    font-family:'Cinzel', serif;
+    color: rgb(202, 183, 161);
+    
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(300px, auto);
+    /* background-color:  rgb(166, 0, 0); */
+    padding:  60px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #BA181B;
+    border-top-left-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+  color: rgb(202, 183, 161);
+    font-size: 1.3rem;
+}
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 ;
+    background-color: rgb(178, 149, 118);
+    border-top-right-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+    color: #212529;
+    font-size: 1.3rem;
+  }
+  .three {
+    grid-column: 1/3;
+    grid-row:2;
+    border-bottom-left-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+    color: #212529;
+    font-size: 1.3rem;
+    background-color: rgb(178, 149, 118);
+  }
+  .four {
+    background-color: #BA181B;
+    color: rgb(202, 183, 161);
+    grid-column: 3;
+    grid-row: 2;
+    border-bottom-right-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+  
+    font-size: 1.3rem;
+  }
+  .infor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Elsie Swash Caps', 'cursive'; */
+    font-size: 2rem;
+    font-family:'Cinzel', serif;
+    color: #212529;
+  }
+.wrapper2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(464px,auto);
+    /* background-color:  rgb(166, 0, 0); */
+    padding:  60px;
+  }
+  .one1{
+    grid-column: 1;
+    grid-row: 1;
+    /* background-color: rgb(129, 17, 18); */
+    border-top-left-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+  color: rgb(202, 183, 161);
+    font-size: 1.3rem;
+}
+  .two1{
+    grid-column: 2 ;
+    grid-row: 1 ;
+    /* background-color: rgb(178, 149, 118); */
+    border-top-right-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+    color: #212529;
+    font-size: 1.3rem;
+  }
+  .three1{
+    grid-column: 0/3;
+    grid-row:2;
+    border-bottom-left-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+    color: #212529;
+    font-size: 1.3rem;
+    /* background-color: rgb(178, 149, 118); */
+  }
+  .four1{
+    /* background-color: rgb(129, 17, 18); */
+    color: rgb(202, 183, 161);
+    grid-column: 2;
+    grid-row: 2;
+    border-bottom-right-radius: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Cinzel', serif;
+  
+    font-size: 1.3rem;
+  }
+  .Footer{
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(219 160 31); */
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot{
+    margin: 59px 160px;
+    font-size: 1.2rem;
+    line-height: 50px;
+    align-items: center;
+    margin: auto;
+    font-family:'Cinzel', serif;
+    color: #BA181B;
+  
+  }
+  .foot a{
+    text-decoration: none;
+    color: black;
+  }
+  .foot1{
+    background-color: rgb(219 160 31);
+  }
+  .card {
+    width: 1469px;
+    height: 100%;
+    /* background-color:  rgb(228, 187, 97); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px -20px 27px -27px rgba(0, 0, -1, 1.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+    /* background-color: rgb(44, 44, 44); */
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .finalfooter{
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(231, 47, 47); */
+    padding-bottom: 50px;
+    font-family:'Cinzel', serif;
+    color: rgb(129, 17, 18);
+  }

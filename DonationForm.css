@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:  rgb(178, 149, 118); */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-form {
+
+    /* background-color: #f2f2f2; */
+    padding: 20px 0;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form label {
+    color: #212529;
+    font-family:'Cinzel', serif;
+}
+
+.contact-form .heading {
+    font-size: 35px;
+    font-family:'Cinzel', serif;
+    color: rgb(129, 17, 18);
+    
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    color: #212529;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    color: #212529;
+}
+.contact-form input{
+      font-family:'Cinzel', serif;
+      color: #212529;
+
+  }
+  .contact-form select{
+    font-family:'Cinzel', serif;
+    color: #212529;
+    margin-bottom: 10px;
+
+}
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    width: 200px;
+    color: #212529;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(129, 17, 18);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: rgb(129, 17, 18);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .Footer{
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(219 160 31); */
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot{
+    margin: 59px 160px;
+    font-size: 1.2rem;
+    line-height: 50px;
+    align-items: center;
+    margin: auto;
+    font-family:'Cinzel', serif;
+    color: rgb(129, 17, 18);
+  
+  }
+  .foot a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .foot1{
+    background-color: rgb(219 160 31);
+  }
+  .card {
+    width: 1469px;
+    height: 100%;
+    /* background-color:  rgb(228, 187, 97); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px -20px 27px -27px rgba(0, 0, -1, 1.055);
+    
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+    /* background-color: rgb(44, 44, 44); */
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .finalfooter{
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(231, 47, 47); */
+    padding-bottom: 50px;
+    font-family:'Cinzel', serif;
+    color: rgb(129, 17, 18);
+  }
+ 
